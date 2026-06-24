@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { prisma } from "@/lib/prisma";
-import { generateSlug } from "@/lib/slug";
+import { prisma } from "../../../lib/prisma";
+import { generateSlug } from "../../../lib/slug";
 
 export async function POST(
   request: Request,
